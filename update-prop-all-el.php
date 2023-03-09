@@ -1,6 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . '/bitrix/modules/main/include/prolog_before.php');
-\Bitrix\Main\Loader::includeModule("iblock"); ///подключаем модуль информационного блока
+\Bitrix\Main\Loader::includeModule("iblock"); ///Подключаем модуль информационного блока
 
 $step = 0;
 $arSelect = array("ID");   ///Выбор только поля ID
